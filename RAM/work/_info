@@ -1,0 +1,944 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dF:/Digital Verification/project_1
+T_opt
+Z1 !s11d F:/Digital Verification/Project_2/work 0 
+Z2 !s11d RAM_if_ref 1 0 
+R1
+Z3 !s11d RAM_if 1 0 
+Z4 !s11d Verification/Project_2/work 2 0 
+!s11d RAM_test F:/Digital 0 
+R1
+R2
+Z5 !s11d Verification/Project_2/work 1 0 
+!s11d RAM_monitor_ref F:/Digital 0 
+R1
+R2
+R1
+R3
+R4
+!s11d RAM_config F:/Digital 0 
+R1
+R3
+R5
+!s11d RAM_monitor F:/Digital 0 
+R1
+R3
+R5
+!s11d RAM_driver F:/Digital 0 
+!s110 1760125864
+Vb;UcgiGMP5znY>6U<m@0h3
+04 7 4 work RAM_top fast 0
+=1-64d69ab4a898-68e963a7-1bd-50bc
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z6 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vRAM
+Z7 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z8 !s110 1760125862
+!i10b 1
+!s100 88F_PaEML>:XN?aQ<c]WG1
+Ikfc`:cKaZjmng_AkdSD6G1
+S1
+Z9 dF:/Digital Verification/Project_2
+w1760039107
+8RAM.sv
+FRAM.sv
+!i122 70
+Z10 L0 1 27
+Z11 VDg1SIo80bB@j0V0VzS_@n1
+Z12 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z13 !s108 1760125862.000000
+Z14 !s107 C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|RAM_top.sv|RAM_test.sv|RAM_env.sv|RAM_coverage.sv|RAM_scoreboard.sv|RAM_reset_sequence.sv|RAM_read_write_sequence.sv|RAM_write_only_sequence.sv|RAM_read_only_sequence.sv|RAM_agent.sv|RAM_monitor_ref.sv|RAM_monitor.sv|RAM_driver.sv|RAM_sequencer.sv|RAM_seq_item.sv|RAM_config.sv|RAM_ref.sv|RAM.sv|RAM_sva.sv|RAM_if_ref.sv|RAM_if.sv|
+Z15 !s90 -reportprogress|300|-f|src_files.list|-cover|bcesf|+cover|+acc|-covercells|
+!i113 0
+Z16 !s102 -cover bcesf +cover -covercells
+Z17 o-cover bcesf +cover +acc -covercells -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+n@r@a@m
+XRAM_agent
+R7
+Z18 DXx6 mtiUvm 7 uvm_pkg 0 22 8V[`8]Q0W57le7Z>zYaAj1
+Z19 DXx4 work 12 RAM_seq_item 0 22 @N?@TF?mNkHQ`YVK5fgL33
+Z20 DXx4 work 10 RAM_driver 0 22 ;N[Wz2XGfdBihm5Q@nm371
+Z21 DXx4 work 13 RAM_sequencer 0 22 f@8II1fgTD^F@daOV22fL1
+Z22 DXx4 work 11 RAM_monitor 0 22 6z5=dk6D8^=@h=?2i>;9`1
+Z23 DXx4 work 10 RAM_config 0 22 nNPjomGa1A25i7GQWXMFM0
+Z24 !s110 1760125863
+!i10b 1
+!s100 E;m<E:3Q][z6dBcfFNLHj2
+Iigl^Tce7@T9<@T<:Th84Z0
+S1
+R9
+w1760037789
+8RAM_agent.sv
+FRAM_agent.sv
+Z25 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh
+Z26 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh
+Z27 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh
+Z28 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh
+Z29 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh
+Z30 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh
+Z31 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh
+Z32 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh
+Z33 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh
+Z34 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh
+Z35 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh
+Z36 FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh
+!i122 70
+Z37 L0 1 0
+Vigl^Tce7@T9<@T<:Th84Z0
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R6
+n@r@a@m_agent
+XRAM_config
+Z38 !s115 RAM_if_ref
+Z39 !s115 RAM_if
+R7
+R18
+R24
+!i10b 1
+!s100 `m?iRjOPZfP:;A]9Sdjoc2
+InNPjomGa1A25i7GQWXMFM0
+S1
+R9
+w1760029587
+8RAM_config.sv
+FRAM_config.sv
+R25
+R26
+R27
+R28
+R29
+R30
+R31
+R32
+R33
+R34
+R35
+R36
+!i122 70
+R37
+VnNPjomGa1A25i7GQWXMFM0
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R6
+n@r@a@m_config
+XRAM_coverage
+R7
+R18
+R19
+R24
+!i10b 1
+!s100 PWDBZ2ZD7UngZKkS:9KnI3
+I1<eRR@ANRWjSlDMFNa@z>1
+S1
+R9
+w1760036684
+8RAM_coverage.sv
+FRAM_coverage.sv
+R25
+R26
+R27
+R28
+R29
+R30
+R31
+R32
+R33
+R34
+R35
+R36
+!i122 70
+R37
+V1<eRR@ANRWjSlDMFNa@z>1
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R6
+n@r@a@m_coverage
+XRAM_driver
+R39
+R7
+R18
+R19
+R24
+!i10b 1
+!s100 iNI5R1SeiQOVgdn=AG<G=2
+I;N[Wz2XGfdBihm5Q@nm371
+S1
+R9
+w1760037920
+8RAM_driver.sv
+FRAM_driver.sv
+R25
+R26
+R27
+R28
+R29
+R30
+R31
+R32
+R33
+R34
+R35
+R36
+!i122 70
+R37
+V;N[Wz2XGfdBihm5Q@nm371
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R6
+n@r@a@m_driver
+XRAM_env
+R7
+R18
+R19
+R20
+R21
+R22
+R23
+Z40 DXx4 work 9 RAM_agent 0 22 igl^Tce7@T9<@T<:Th84Z0
+Z41 DXx4 work 14 RAM_scoreboard 0 22 nSdQ><na4Ck7`91;DEOWF0
+Z42 DXx4 work 12 RAM_coverage 0 22 1<eRR@ANRWjSlDMFNa@z>1
+Z43 DXx4 work 15 RAM_monitor_ref 0 22 LKzMNo[Jn1>fRHE[HFnDR2
+R24
+!i10b 1
+!s100 fGN1K[B?ci?ik5i]IXg0H0
+IkhM3lEK8K:L@z@Q`I7i?Q3
+S1
+R9
+w1760084197
+8RAM_env.sv
+FRAM_env.sv
+R25
+R26
+R27
+R28
+R29
+R30
+R31
+R32
+R33
+R34
+R35
+R36
+!i122 70
+R37
+VkhM3lEK8K:L@z@Q`I7i?Q3
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R6
+n@r@a@m_env
+YRAM_if
+R7
+R8
+!i10b 1
+!s100 m4J@ET^B@WUlgRU`HkN]A2
+Ib9YEZU^aXZDWRb=PZKEZQ0
+S1
+R9
+w1760083290
+8RAM_if.sv
+FRAM_if.sv
+!i122 70
+R37
+R11
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R6
+n@r@a@m_if
+YRAM_if_ref
+R7
+R8
+!i10b 1
+!s100 Q7N71;QooUM>ncIHEF;WA0
+IOg9U0f:D7R>QI4khTPPFQ0
+S1
+R9
+w1760035012
+8RAM_if_ref.sv
+FRAM_if_ref.sv
+!i122 70
+R37
+R11
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R6
+n@r@a@m_if_ref
+XRAM_monitor
+R39
+R7
+R18
+R19
+R24
+!i10b 1
+!s100 kSLUS3f@<M<j^jB`;N^W72
+I6z5=dk6D8^=@h=?2i>;9`1
+S1
+R9
+w1760014533
+8RAM_monitor.sv
+FRAM_monitor.sv
+R25
+R26
+R27
+R28
+R29
+R30
+R31
+R32
+R33
+R34
+R35
+R36
+!i122 70
+R37
+V6z5=dk6D8^=@h=?2i>;9`1
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R6
+n@r@a@m_monitor
+XRAM_monitor_ref
+R38
+R7
+R18
+R19
+R23
+R24
+!i10b 1
+!s100 U=@MGkd7T`=68CjiX8LX`0
+ILKzMNo[Jn1>fRHE[HFnDR2
+S1
+R9
+w1760085096
+8RAM_monitor_ref.sv
+FRAM_monitor_ref.sv
+R25
+R26
+R27
+R28
+R29
+R30
+R31
+R32
+R33
+R34
+R35
+R36
+!i122 70
+R37
+VLKzMNo[Jn1>fRHE[HFnDR2
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R6
+n@r@a@m_monitor_ref
+XRAM_read_only_sequence
+R7
+R18
+R19
+R24
+!i10b 1
+!s100 BGAJcGWPLTal>[iQ8h@813
+IKHaUQ]Z[8Nkfo3V`]el9:0
+S1
+R9
+w1760086371
+8RAM_read_only_sequence.sv
+FRAM_read_only_sequence.sv
+R25
+R26
+R27
+R28
+R29
+R30
+R31
+R32
+R33
+R34
+R35
+R36
+!i122 70
+R37
+VKHaUQ]Z[8Nkfo3V`]el9:0
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R6
+n@r@a@m_read_only_sequence
+XRAM_read_write_sequence
+R7
+R18
+R19
+R24
+!i10b 1
+!s100 JS];EI^5ETRDha`dE7SX:1
+IXY5kgCW_DGUH;XfK86mGk0
+S1
+R9
+w1760094562
+8RAM_read_write_sequence.sv
+FRAM_read_write_sequence.sv
+R25
+R26
+R27
+R28
+R29
+R30
+R31
+R32
+R33
+R34
+R35
+R36
+!i122 70
+R37
+VXY5kgCW_DGUH;XfK86mGk0
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R6
+n@r@a@m_read_write_sequence
+vRAM_ref
+R7
+R8
+!i10b 1
+!s100 P5R@JPUQ7zPZNe7bNo47:1
+IWR6:[>dk9`DA^TD9KLO>B0
+S1
+R9
+w1760039123
+8RAM_ref.sv
+FRAM_ref.sv
+!i122 70
+R10
+R11
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R6
+n@r@a@m_ref
+XRAM_reset_sequence
+R7
+R18
+R19
+R24
+!i10b 1
+!s100 h0UNmXLbOKCmEhRg3CcXW0
+Il7[5mYBBkL_cGSLNG5?Mc0
+S1
+R9
+w1760041409
+8RAM_reset_sequence.sv
+FRAM_reset_sequence.sv
+R25
+R26
+R27
+R28
+R29
+R30
+R31
+R32
+R33
+R34
+R35
+R36
+!i122 70
+R37
+Vl7[5mYBBkL_cGSLNG5?Mc0
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R6
+n@r@a@m_reset_sequence
+XRAM_scoreboard
+R7
+R18
+R19
+R23
+R24
+!i10b 1
+!s100 UQ=kAickh[d3UCCF`Z1_z2
+InSdQ><na4Ck7`91;DEOWF0
+S1
+R9
+w1760084323
+8RAM_scoreboard.sv
+FRAM_scoreboard.sv
+R25
+R26
+R27
+R28
+R29
+R30
+R31
+R32
+R33
+R34
+R35
+R36
+!i122 70
+R37
+VnSdQ><na4Ck7`91;DEOWF0
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R6
+n@r@a@m_scoreboard
+XRAM_seq_item
+R7
+R18
+R24
+!i10b 1
+!s100 _AFLW<iY?D[aCnNM_4DjS2
+I@N?@TF?mNkHQ`YVK5fgL33
+S1
+R9
+w1760094050
+8RAM_seq_item.sv
+FRAM_seq_item.sv
+R25
+R26
+R27
+R28
+R29
+R30
+R31
+R32
+R33
+R34
+R35
+R36
+!i122 70
+R37
+V@N?@TF?mNkHQ`YVK5fgL33
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R6
+n@r@a@m_seq_item
+XRAM_sequencer
+R7
+R18
+R19
+R24
+!i10b 1
+!s100 <S`bGj:z_<b9b<N`gZmkZ0
+If@8II1fgTD^F@daOV22fL1
+S1
+R9
+w1760035410
+8RAM_sequencer.sv
+FRAM_sequencer.sv
+R25
+R26
+R27
+R28
+R29
+R30
+R31
+R32
+R33
+R34
+R35
+R36
+!i122 70
+R37
+Vf@8II1fgTD^F@daOV22fL1
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R6
+n@r@a@m_sequencer
+vRAM_sva
+R7
+R8
+!i10b 1
+!s100 ?JYG^O6don;HOgA1o?<0[2
+I[Y1Xi@gGLXmQK0_@K>XN[0
+S1
+R9
+w1760125822
+8RAM_sva.sv
+FRAM_sva.sv
+!i122 70
+L0 1 42
+R11
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R6
+n@r@a@m_sva
+XRAM_test
+R38
+R39
+R7
+R18
+R19
+R20
+R21
+R22
+R23
+R40
+R41
+R42
+R43
+Z44 DXx4 work 7 RAM_env 0 22 khM3lEK8K:L@z@Q`I7i?Q3
+Z45 DXx4 work 22 RAM_read_only_sequence 0 22 KHaUQ]Z[8Nkfo3V`]el9:0
+Z46 DXx4 work 23 RAM_write_only_sequence 0 22 0M9HUnKE8zKT@@9_57cSY0
+Z47 DXx4 work 23 RAM_read_write_sequence 0 22 XY5kgCW_DGUH;XfK86mGk0
+Z48 DXx4 work 18 RAM_reset_sequence 0 22 l7[5mYBBkL_cGSLNG5?Mc0
+R24
+!i10b 1
+!s100 h6Fc7kd`C_T5UQ_4>d^aS3
+IXhCc3YKPCC0Nl:3eh848A1
+S1
+R9
+w1760093405
+8RAM_test.sv
+FRAM_test.sv
+R25
+R26
+R27
+R28
+R29
+R30
+R31
+R32
+R33
+R34
+R35
+R36
+!i122 70
+R37
+VXhCc3YKPCC0Nl:3eh848A1
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R6
+n@r@a@m_test
+vRAM_top
+R7
+R7
+R18
+R19
+R20
+R21
+R22
+R23
+R40
+R41
+R42
+R43
+R44
+R45
+R46
+R47
+R48
+Z49 DXx4 work 8 RAM_test 0 22 XhCc3YKPCC0Nl:3eh848A1
+DXx4 work 15 RAM_top_sv_unit 0 22 [:zRKFD<S550j7lR[AUU82
+R24
+R11
+r1
+!s85 0
+!i10b 1
+!s100 e[9]4KzQCo5N6FZ[PI?9k1
+I>lXg@GI4HiWOI4[5ezoBc2
+!s105 RAM_top_sv_unit
+S1
+R9
+Z50 w1760122008
+Z51 8RAM_top.sv
+Z52 FRAM_top.sv
+!i122 70
+L0 4 22
+R12
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R6
+n@r@a@m_top
+XRAM_top_sv_unit
+R7
+R7
+R18
+R19
+R20
+R21
+R22
+R23
+R40
+R41
+R42
+R43
+R44
+R45
+R46
+R47
+R48
+R49
+R24
+V[:zRKFD<S550j7lR[AUU82
+r1
+!s85 0
+!i10b 1
+!s100 ^YkHb5DhUG?VNl_G?Q@8K3
+I[:zRKFD<S550j7lR[AUU82
+!i103 1
+S1
+R9
+R50
+R51
+R52
+R25
+R26
+R27
+R28
+R29
+R30
+R31
+R32
+R33
+R34
+R35
+R36
+!i122 70
+R37
+R12
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R6
+n@r@a@m_top_sv_unit
+XRAM_write_only_sequence
+R7
+R18
+R19
+R24
+!i10b 1
+!s100 56IOjm`7ZDgRlIV9GiK=e0
+I0M9HUnKE8zKT@@9_57cSY0
+S1
+R9
+w1760087848
+8RAM_write_only_sequence.sv
+FRAM_write_only_sequence.sv
+R25
+R26
+R27
+R28
+R29
+R30
+R31
+R32
+R33
+R34
+R35
+R36
+!i122 70
+R37
+V0M9HUnKE8zKT@@9_57cSY0
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R17
+R6
+n@r@a@m_write_only_sequence

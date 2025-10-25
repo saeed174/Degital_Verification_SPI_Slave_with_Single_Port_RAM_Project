@@ -1,0 +1,202 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /RAM_top/DUT/RAM_sva_inst
+=== Design Unit: work.RAM_sva
+=================================================================================
+
+Directive Coverage:
+    Directives                       5         5         0   100.00%
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/RAM_top/DUT/RAM_sva_inst/cover__read_addr_data_check 
+                                         RAM_sva Verilog  SVA  RAM_sva.sv(35)    49 Covered   
+/RAM_top/DUT/RAM_sva_inst/cover__write_addr_data_check 
+                                         RAM_sva Verilog  SVA  RAM_sva.sv(28)  3334 Covered   
+/RAM_top/DUT/RAM_sva_inst/cover__tx_valid_high_check 
+                                         RAM_sva Verilog  SVA  RAM_sva.sv(21)    24 Covered   
+/RAM_top/DUT/RAM_sva_inst/cover__tx_valid_low_check 
+                                         RAM_sva Verilog  SVA  RAM_sva.sv(15)  8212 Covered   
+/RAM_top/DUT/RAM_sva_inst/cover__rst_check 
+                                         RAM_sva Verilog  SVA  RAM_sva.sv(8)   1017 Covered   
+
+=================================================================================
+=== Instance: /RAM_coverage
+=== Design Unit: work.RAM_coverage
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      1        na        na   100.00%
+        Coverpoints/Crosses          5        na        na        na
+            Covergroup Bins         16        16         0   100.00%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /RAM_coverage/RAM_coverage/COV                  100.00%        100          -    Covered              
+    covered/total bins:                                    16         16          -                      
+    missing/total bins:                                     0         16          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint c1                                     100.00%        100          -    Covered              
+        covered/total bins:                                 7          7          -                      
+        missing/total bins:                                 0          7          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint rx_valid_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint tx_valid_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross #cross__0#                                  100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross #cross__1#                                  100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/RAM_coverage::RAM_coverage::COV  
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                    16         16          -                      
+    missing/total bins:                                     0         16          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint c1                                     100.00%        100          -    Covered              
+        covered/total bins:                                 7          7          -                      
+        missing/total bins:                                 0          7          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin write_addr                                   5065          1          -    Covered              
+        bin write_data                                   4989          1          -    Covered              
+        bin read_addr                                      77          1          -    Covered              
+        bin read_data                                      70          1          -    Covered              
+        bin write_addr_data                              2509          1          -    Covered              
+        bin read_addr_data                                 46          1          -    Covered              
+        bin write_read                                      8          1          -    Covered              
+    Coverpoint rx_valid_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin rx_valid_0                                   1037          1          -    Covered              
+        bin rx_valid_1                                   9164          1          -    Covered              
+    Coverpoint tx_valid_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin tx_valid_0                                  10140          1          -    Covered              
+        bin tx_valid_1                                     61          1          -    Covered              
+    Cross #cross__0#                                  100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin b1                                        532          1          -    Covered              
+            bin b2                                       4494          1          -    Covered              
+            bin b3                                         72          1          -    Covered              
+            bin b4                                         65          1          -    Covered              
+    Cross #cross__1#                                  100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin read_data_valid                            61          1          -    Covered              
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /RAM_coverage/RAM_coverage/COV                  100.00%        100          -    Covered              
+    covered/total bins:                                    16         16          -                      
+    missing/total bins:                                     0         16          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint c1                                     100.00%        100          -    Covered              
+        covered/total bins:                                 7          7          -                      
+        missing/total bins:                                 0          7          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint rx_valid_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint tx_valid_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross #cross__0#                                  100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross #cross__1#                                  100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/RAM_coverage::RAM_coverage::COV  
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                    16         16          -                      
+    missing/total bins:                                     0         16          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint c1                                     100.00%        100          -    Covered              
+        covered/total bins:                                 7          7          -                      
+        missing/total bins:                                 0          7          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin write_addr                                   5065          1          -    Covered              
+        bin write_data                                   4989          1          -    Covered              
+        bin read_addr                                      77          1          -    Covered              
+        bin read_data                                      70          1          -    Covered              
+        bin write_addr_data                              2509          1          -    Covered              
+        bin read_addr_data                                 46          1          -    Covered              
+        bin write_read                                      8          1          -    Covered              
+    Coverpoint rx_valid_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin rx_valid_0                                   1037          1          -    Covered              
+        bin rx_valid_1                                   9164          1          -    Covered              
+    Coverpoint tx_valid_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin tx_valid_0                                  10140          1          -    Covered              
+        bin tx_valid_1                                     61          1          -    Covered              
+    Cross #cross__0#                                  100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin b1                                        532          1          -    Covered              
+            bin b2                                       4494          1          -    Covered              
+            bin b3                                         72          1          -    Covered              
+            bin b4                                         65          1          -    Covered              
+    Cross #cross__1#                                  100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin read_data_valid                            61          1          -    Covered              
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/RAM_top/DUT/RAM_sva_inst/cover__read_addr_data_check 
+                                         RAM_sva Verilog  SVA  RAM_sva.sv(35)    49 Covered   
+/RAM_top/DUT/RAM_sva_inst/cover__write_addr_data_check 
+                                         RAM_sva Verilog  SVA  RAM_sva.sv(28)  3334 Covered   
+/RAM_top/DUT/RAM_sva_inst/cover__tx_valid_high_check 
+                                         RAM_sva Verilog  SVA  RAM_sva.sv(21)    24 Covered   
+/RAM_top/DUT/RAM_sva_inst/cover__tx_valid_low_check 
+                                         RAM_sva Verilog  SVA  RAM_sva.sv(15)  8212 Covered   
+/RAM_top/DUT/RAM_sva_inst/cover__rst_check 
+                                         RAM_sva Verilog  SVA  RAM_sva.sv(8)   1017 Covered   
+
+TOTAL DIRECTIVE COVERAGE: 100.00%  COVERS: 5
+
+Total Coverage By Instance (filtered view): 100.00%
+

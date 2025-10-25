@@ -1,0 +1,97 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /RAM_top/DUT/RAM_sva_inst
+=== Design Unit: work.RAM_sva
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       5         5         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/RAM_top/DUT/RAM_sva_inst/assert__read_addr_data_check
+                     RAM_sva.sv(34)                     0          1
+/RAM_top/DUT/RAM_sva_inst/assert__write_addr_data_check
+                     RAM_sva.sv(27)                     0          1
+/RAM_top/DUT/RAM_sva_inst/assert__tx_valid_high_check
+                     RAM_sva.sv(20)                     0          1
+/RAM_top/DUT/RAM_sva_inst/assert__tx_valid_low_check
+                     RAM_sva.sv(14)                     0          1
+/RAM_top/DUT/RAM_sva_inst/assert__rst_check
+                     RAM_sva.sv(7)                      0          1
+
+=================================================================================
+=== Instance: /RAM_read_write_sequence
+=== Design Unit: work.RAM_read_write_sequence
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       1         1         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/RAM_read_write_sequence/read_write_sequence/body/#ublk#224597893#14/immed__20
+                     RAM_read_write_sequence.sv(20)
+                                                        0          1
+
+=================================================================================
+=== Instance: /RAM_write_only_sequence
+=== Design Unit: work.RAM_write_only_sequence
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       1         1         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/RAM_write_only_sequence/write_only_sequence/body/#ublk#4102213#13/immed__20
+                     RAM_write_only_sequence.sv(20)
+                                                        0          1
+
+=================================================================================
+=== Instance: /RAM_read_only_sequence
+=== Design Unit: work.RAM_read_only_sequence
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       1         1         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/RAM_read_only_sequence/read_only_sequence/body/#ublk#139883125#13/immed__20
+                     RAM_read_only_sequence.sv(20)
+                                                        0          1
+
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/RAM_top/DUT/RAM_sva_inst/assert__read_addr_data_check
+                     RAM_sva.sv(34)                     0          1
+/RAM_top/DUT/RAM_sva_inst/assert__write_addr_data_check
+                     RAM_sva.sv(27)                     0          1
+/RAM_top/DUT/RAM_sva_inst/assert__tx_valid_high_check
+                     RAM_sva.sv(20)                     0          1
+/RAM_top/DUT/RAM_sva_inst/assert__tx_valid_low_check
+                     RAM_sva.sv(14)                     0          1
+/RAM_top/DUT/RAM_sva_inst/assert__rst_check
+                     RAM_sva.sv(7)                      0          1
+/RAM_read_write_sequence/read_write_sequence/body/#ublk#224597893#14/immed__20
+                     RAM_read_write_sequence.sv(20)
+                                                        0          1
+/RAM_write_only_sequence/write_only_sequence/body/#ublk#4102213#13/immed__20
+                     RAM_write_only_sequence.sv(20)
+                                                        0          1
+/RAM_read_only_sequence/read_only_sequence/body/#ublk#139883125#13/immed__20
+                     RAM_read_only_sequence.sv(20)
+                                                        0          1
+
+Total Coverage By Instance (filtered view): 100.00%
+

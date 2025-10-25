@@ -1,0 +1,219 @@
+{D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_sva.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_sva.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module SPI_slave_sva
+
+Top level modules:
+	SPI_slave_sva
+
+} {} {}} {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_sequencer.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_sequencer.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_slave_sequencer_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package SPI_slave_sequenceitem_pkg
+-- Importing package shared_package
+** Note: (vlog-2286) D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_sequencer.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_RAM_config.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_RAM_config.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_RAM_config_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_RAM_config.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_scoreboard.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_scoreboard.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_slave_scoreboard_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package SPI_slave_sequenceitem_pkg
+-- Importing package shared_package
+** Note: (vlog-2286) D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_scoreboard.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_main_sequence.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_main_sequence.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_slave_random_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package SPI_slave_sequenceitem_pkg
+-- Importing package shared_package
+** Note: (vlog-2286) D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_main_sequence.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/shared_package.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/shared_package.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package shared_package
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_agent.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_agent.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_slave_agent_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_agent.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package SPI_RAM_config_pkg
+-- Importing package SPI_slave_sequencer_pkg
+-- Importing package SPI_slave_sequenceitem_pkg
+-- Importing package shared_package
+-- Importing package SPI_slave_driver_pkg
+-- Importing package SPI_slave_monitor_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_monitor.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_monitor.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_slave_monitor_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package SPI_RAM_config_pkg
+-- Importing package SPI_slave_sequenceitem_pkg
+-- Importing package shared_package
+** Note: (vlog-2286) D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_monitor.sv(5): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_test.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_test.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_slave_test_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package SPI_slave_env_pkg
+-- Importing package SPI_slave_agent_pkg
+-- Importing package SPI_RAM_config_pkg
+-- Importing package SPI_slave_sequencer_pkg
+-- Importing package SPI_slave_sequenceitem_pkg
+-- Importing package shared_package
+-- Importing package SPI_slave_driver_pkg
+-- Importing package SPI_slave_monitor_pkg
+-- Importing package SPI_slave_coverage_pkg
+-- Importing package SPI_slave_scoreboard_pkg
+-- Importing package SPI_slave_rst_sequence_pkg
+-- Importing package SPI_slave_random_sequence_pkg
+** Note: (vlog-2286) D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_test.sv(7): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_sequenceitem.sv} {2 {vlog -work work -vopt -sv -stats=none {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_sequenceitem.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_slave_sequenceitem_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package shared_package
+** Note: (vlog-2286) D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_sequenceitem.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Warning: D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_sequenceitem.sv(24): (vlog-2643) Unterminated string literal continues onto next line.
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_env.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_env.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_slave_env_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package SPI_slave_agent_pkg
+-- Importing package SPI_RAM_config_pkg
+-- Importing package SPI_slave_sequencer_pkg
+-- Importing package SPI_slave_sequenceitem_pkg
+-- Importing package shared_package
+-- Importing package SPI_slave_driver_pkg
+-- Importing package SPI_slave_monitor_pkg
+-- Importing package SPI_slave_coverage_pkg
+-- Importing package SPI_slave_scoreboard_pkg
+** Note: (vlog-2286) D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_env.sv(6): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_rst_sequence.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_rst_sequence.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_slave_rst_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package SPI_slave_sequenceitem_pkg
+-- Importing package shared_package
+** Note: (vlog-2286) D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_rst_sequence.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_golden_model.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_golden_model.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module SPI_Slave_golden_model
+
+Top level modules:
+	SPI_Slave_golden_model
+
+} {} {}} {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module SPI_slave
+
+Top level modules:
+	SPI_slave
+
+} {} {}} {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_driver.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_driver.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_slave_driver_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package SPI_RAM_config_pkg
+-- Importing package SPI_slave_sequenceitem_pkg
+-- Importing package shared_package
+** Note: (vlog-2286) D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_driver.sv(5): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_coverage.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_coverage.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_slave_coverage_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package SPI_slave_sequenceitem_pkg
+-- Importing package shared_package
+** Note: (vlog-2286) D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_coverage.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_inf.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_inf.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface SPI_slave_inf
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/top.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/top.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Note: (vlog-2286) D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/top.sv(1): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Compiling package top_sv_unit
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package SPI_slave_test_pkg
+-- Importing package SPI_slave_env_pkg
+-- Importing package SPI_slave_agent_pkg
+-- Importing package SPI_RAM_config_pkg
+-- Importing package SPI_slave_sequencer_pkg
+-- Importing package SPI_slave_sequenceitem_pkg
+-- Importing package shared_package
+-- Importing package SPI_slave_driver_pkg
+-- Importing package SPI_slave_monitor_pkg
+-- Importing package SPI_slave_coverage_pkg
+-- Importing package SPI_slave_scoreboard_pkg
+-- Importing package SPI_slave_rst_sequence_pkg
+-- Importing package SPI_slave_random_sequence_pkg
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_gm_inf.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Summer2025/Digital_Verifcation/Project2/SPI Slave/SPI_slave_gm_inf.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface SPI_slave_gm_inf
+
+Top level modules:
+	--none--
+
+} {} {}}
