@@ -1,0 +1,1 @@
+# Degital_Verification_SPI_Slave_with_Single_Port_RAM_Project
